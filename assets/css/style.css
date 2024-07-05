@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --Primary-Color: #c100cc;
     --Secondary-Color: #600080;
@@ -105,7 +106,8 @@ img {
     z-index: 9;
     background-color: #fff;
 }
-.fixed-header{
+
+.fixed-header {
     position: fixed;
     top: 0;
     left: 0;
@@ -115,6 +117,7 @@ img {
     box-shadow: #00000038 0px 4px 10px 0px;
 
 }
+
 .site-header nav {
     display: flex;
     align-items: center;
@@ -122,7 +125,7 @@ img {
 }
 
 .site-logo img {
-    max-width: 120px;
+    max-width: 180px;
 }
 
 .main-nav ul {
@@ -170,28 +173,28 @@ img {
 }
 
 /* header section css end */
-.site-banner{
+.site-banner {
     height: 70vh;
     position: relative;
     overflow: hidden;
 }
 
-    .site-banner-overlay::before{
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        /* background: rgb(96,0,128);
+.site-banner-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background: rgb(96,0,128);
         background: linear-gradient(134deg, #600080 21%, #7d0e84 47%, #c731cf 83%); */
-        opacity: 0.6;
-     backdrop-filter: blur(5px);
-        background-color: #000;
+    opacity: 0.6;
+    backdrop-filter: blur(5px);
+    background-color: #000;
 }
 
-.site-banner-overlay{
-    background-image: url(/assets/images/banner2.jpg);
+.site-banner-overlay {
+    background-image: url(../images/banner2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,57 +205,68 @@ img {
     /* filter: blur(100px); */
     /* -webkit-filter: blur(100px); */
 }
-.site-banner .container{
+
+.site-banner .container {
     height: 100%;
 }
-.site-banner .row{
+
+.site-banner .row {
     position: relative;
     z-index: 9;
     height: 100%;
     align-items: center;
 }
+
 .banner-text p {
     font-size: 30px;
     color: #fff;
 }
+
 .banner-imgs {
     height: 600px;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
 }
-.bnr-left{
+
+.bnr-left {
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
     width: 49%;
 }
-.left-top, .left-bottom{
+
+.left-top,
+.left-bottom {
     height: 49%;
     border-radius: 20px;
     overflow: hidden;
 }
-.bnr-left img{
+
+.bnr-left img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
 .bnr-right {
     width: 49%;
     height: 100%;
     overflow: hidden;
     border-radius: 20px;
 }
+
 .bnr-right img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
 /* banner css end */
 
 /* arrivals section css start  */
-.arrivals-wrap{
+.arrivals-wrap {
     /* background-image: url(/assets/images/arrivals1.webp);
     background-position: center;
     background-repeat: no-repeat;
@@ -261,23 +275,27 @@ img {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border: 3px solid #eee;
 }
+
 .arrivals-img {
     height: 300px;
     overflow: hidden;
     padding: 20px;
 }
-.arrivals-img img{
+
+.arrivals-img img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     background-color: #eee;
 }
-.arrivals-text h4{
+
+.arrivals-text h4 {
     text-align: center;
     font-size: 25px;
     font-weight: 600;
 
 }
+
 a.buynow {
     padding: 10px 40px;
     background: #600080;
@@ -286,33 +304,39 @@ a.buynow {
     display: inline-block;
     margin-top: 10px;
 }
+
 .arrivals-text {
     text-align: center;
     padding: 15px 20px;
 }
+
 .site-heading h3 {
     font-size: 30px;
     margin-bottom: 5px;
     color: #600080;
 }
+
 .site-heading p {
     font-size: 16px;
     color: #333;
 }
+
 .site-heading {
     margin-bottom: 30px;
 }
+
 /* arrivals section css end */
 /* link card css start  */
-.link-wrap{
-    background-image: url(/assets/images/linkCard1.jpg);
+.link-wrap {
+    background-image: url(../images/linkCard1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
     margin-bottom: 20px;
 }
-.link-wrap a{
+
+.link-wrap a {
     height: 100%;
     width: 100%;
     display: flex;
@@ -321,12 +345,14 @@ a.buynow {
     position: relative;
 
 }
+
 .link-wrap a h4 {
     font-size: 25px;
     color: #fff;
     position: relative;
 }
-.link-wrap a::before{
+
+.link-wrap a::before {
     content: '';
     position: absolute;
     top: 0;
@@ -336,4 +362,116 @@ a.buynow {
     background-color: #000;
     opacity: 0.5;
 }
+
 /* link card css end */
+
+/* news section css start */
+.news-img a img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.news-img a {
+    display: inline-block;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+}
+.news-heading h4 {
+    font-size: 25px;
+    line-height: 1.1;
+    color: #000;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.news-wrap {
+    margin: 20px 0;
+}
+/* news section css end */
+
+/* newsletter section css start */
+section.newsletter {
+    background: #e8e8e8;
+    padding: 50px 0;
+}
+.newsletter-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.newsletter-heading h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #6a0088;
+}
+.newsletter-heading p{
+    font-size: 1rem;
+    color: #333;
+}
+.news-form input {
+    height: 45px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background-color: #e8e8e8;
+}
+.news-form button {
+    width: 19%;
+    height: 45px;
+    border: none;
+    background: #6a0088;
+    color: #fff;
+    font-size: 1rem;
+}
+:focus-visible {
+    outline: none;
+}
+/* newsletter section end */
+/* footer css start */
+.site-footer {
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-logo{
+    margin-bottom: 30px;
+}
+.social-icn ul li a img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.social-icn ul li a {
+    font-size: 18px;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+.social-icn ul li{
+    margin: 10px 0;
+}
+.footer-heading h4 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #000;
+}
+.footer-links ul li a {
+    font-size: 18px;
+    color: #000;
+}
+.footer-links ul li{
+    margin: 10px 0;
+}
+.footer-links ul li a:hover{
+    color: #600080;
+    text-decoration: underline;
+}
+/* footer css end */
