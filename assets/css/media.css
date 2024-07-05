@@ -1,0 +1,193 @@
+@media(max-width:1200px){
+    html{
+        font-size: 15px;
+    }
+    .link-Card .col-lg-6 {
+        margin: 12px 0;
+    }
+    .site-logo img {
+        max-width: 150px;
+    }
+}
+@media(max-width:992px){
+    .close, .toggle{
+        display: block;
+
+    }
+    .toggle{
+        font-size: 25px;
+        color: #000;
+
+    }
+    .close{
+        font-size: 25px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .main-nav ul {
+        flex-direction: column;
+        /* align-items: self-start; */
+    }
+    .main-nav ul li {
+        margin: 10px  0;
+    }
+    .main-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 30px;
+        width: 100%;
+        background: #ffffff;
+        height: 100vh;
+        z-index: 9;
+        transform: translateY(-100%);
+        transition: all 0.3s ease-in-out;
+
+}
+    .menuToggle .main-nav{
+        transform: translateY(0%);
+        transition: all 0.3s ease-in-out;
+
+}
+}
+@media(max-width:850px){
+    html{
+        font-size: 14px
+    }
+    .site-banner {
+        height: 55vh;
+    }
+    .site-banner.sub-banner {
+        height: 45vh;
+    }
+    .banner-text h1 {
+        font-size: 3rem;
+    }
+    .link-card-wrap {
+        height: 300px;
+    }
+    .link-heading h4 {
+        font-size: 1.7625rem;
+    }
+    .location-img {
+        height: 250px;
+    }
+    .site-heading h2 {
+        font-size: 2rem;
+    }
+    .cidade-wrap {
+        flex-direction: column;
+    }
+    .cidade-img {
+        width: 100%;
+        height: 350px;
+    }
+    .cidade-main-text {
+        width: 100%;
+    }
+    .form-group input {
+        height: 40px;
+    }
+    .form-group {
+        margin: 7px 0;
+    }
+    .form-group textarea {
+        height: 250px;
+    }
+    .contact-wrap {
+        padding: 30px;
+    }
+    .brand-rating {
+        margin: 5px 0;
+    }
+}
+@media(max-width:767px){
+    .site-heading {
+        width: 95%;
+    }
+    .site-logo img {
+        max-width: 150px;
+    }
+    .ptb-50 {
+        padding: 30px 0;
+    }
+    .footer-wrap {
+        flex-direction: column-reverse;
+    }
+    .footer-links {
+        margin-bottom: 10px;
+    }
+    .accordion-button {
+        padding: 12px 15px;
+    }
+}
+@media(max-width:575px){
+    .link-card-wrap {
+        height: 250px;
+    }
+    .newsletter-form form {
+        flex-direction: column;
+    }
+    .newsletter-form button {
+        margin-top: 15px;
+        width: 30%;
+    }
+    .newsletter-form input {
+        width: 100%;
+    }
+    .footer-links ul li {
+        padding: 3px 5px;
+    }
+    .footer-links ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cidade-img {
+        height: 250px;
+    }
+    .form-group textarea {
+        height: 150px;
+    }
+    .form-group label {
+        margin-bottom: 2px;
+    }
+    .form-group {
+        margin: 5px 0;
+    }
+    .cidade-main-text ul {
+        padding-left: 30px;
+    }
+}
+@media(max-width:374px){
+    html{
+        font-size: 13px;
+    }
+    .site-logo img {
+        max-width: 130px;
+    }
+    .toggle {
+        font-size: 22px;
+    }
+    .banner-text h1 {
+        font-size: 2.8rem;
+    }
+    .site-banner {
+        height: 50vh;
+    }
+    .sub-banner .banner-text h1 {
+        font-size: 2.3rem;
+    }
+    .site-banner.sub-banner {
+        height: 40vh;
+    }
+    .site-heading h2 {
+        font-size: 1.8rem;
+    }
+    .cidade-main-text {
+        padding: 20px 10px;
+    }
+    .contact-wrap {
+        padding: 20px 10px;
+    }
+}
