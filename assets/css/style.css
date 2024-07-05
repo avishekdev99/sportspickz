@@ -123,7 +123,14 @@ img {
     align-items: center;
     justify-content: space-between;
 }
-
+.main-nav {
+    width: 33%;
+}
+.site-logo {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
 .site-logo img {
     max-width: 180px;
 }
@@ -171,7 +178,37 @@ img {
 .toggle {
     display: none;
 }
+.header-right {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 33%;
+}
+.serch-bar input {
+    padding: 7px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid;
+}
+.user-cart ul {
+    display: flex;
+    align-items: center;
+}
+.user-cart ul li a {
+    font-size: 1.25rem;
+    color: #333;
+    padding-left: 10px;
+}
+.user-cart ul li{
+    line-height: normal;
 
+}
+.site-header .container{
+    max-width: 1800px;
+}
+.search-icon{
+    display: none;
+}
 /* header section css end */
 .site-banner {
     height: 70vh;
@@ -215,10 +252,11 @@ img {
     z-index: 9;
     height: 100%;
     align-items: center;
+    padding: 20px 0;
 }
 
 .banner-text p {
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #fff;
 }
 
@@ -267,13 +305,11 @@ img {
 
 /* arrivals section css start  */
 .arrivals-wrap {
-    /* background-image: url(/assets/images/arrivals1.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px; */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border: 3px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
 }
 
 .arrivals-img {
@@ -285,13 +321,13 @@ img {
 .arrivals-img img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: unset;
     background-color: #eee;
 }
 
 .arrivals-text h4 {
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 600;
 
 }
@@ -299,7 +335,7 @@ img {
 a.buynow {
     padding: 10px 40px;
     background: #600080;
-    font-size: 16px;
+    font-size: 1rem;
     color: #fff;
     display: inline-block;
     margin-top: 10px;
@@ -311,13 +347,13 @@ a.buynow {
 }
 
 .site-heading h3 {
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-bottom: 5px;
     color: #600080;
 }
 
 .site-heading p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #333;
 }
 
@@ -334,6 +370,8 @@ a.buynow {
     background-size: cover;
     height: 400px;
     margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .link-wrap a {
@@ -347,7 +385,7 @@ a.buynow {
 }
 
 .link-wrap a h4 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #fff;
     position: relative;
 }
@@ -380,7 +418,7 @@ a.buynow {
     width: 100%;
 }
 .news-heading h4 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 1.1;
     color: #000;
     margin-top: 10px;
@@ -406,7 +444,7 @@ section.newsletter {
     background-color: #fff;
 }
 .newsletter-heading h4 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     margin-bottom: 10px;
     color: #6a0088;
 }
@@ -450,7 +488,7 @@ section.newsletter {
 }
 
 .social-icn ul li a {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #000;
     display: flex;
     align-items: center;
@@ -459,12 +497,12 @@ section.newsletter {
     margin: 10px 0;
 }
 .footer-heading h4 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     margin-bottom: 30px;
     color: #000;
 }
 .footer-links ul li a {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #000;
 }
 .footer-links ul li{
@@ -475,3 +513,38 @@ section.newsletter {
     text-decoration: underline;
 }
 /* footer css end */
+
+/* sub pages css start  */
+.sub-banner{
+    background-image: url(../images/linkCard1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.sub-banner-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.sub-banner-content h2{
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.sub-banner-content p{
+    font-size: 1.125rem;
+    color: #fff;
+    text-align: center;
+}
+.price h5 {
+    font-size: 1.25rem;
+}
+.rugby-wrap {
+    margin: 30px 0;
+}
+/* sub pages css end */
