@@ -320,8 +320,11 @@ img {
     margin-bottom: 30px;
 }
 
-.arrivals-img {
+.football-main .arrivals-img {
     height: auto;
+}
+.arrivals-img {
+    height: 300px;
     overflow: hidden;
     padding: 20px;
 }
