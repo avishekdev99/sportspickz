@@ -333,7 +333,7 @@ img {
     display: inline-block;
 
 }
-.arrivals-img a::before{
+.arrivals-img a::before, .news-img a::before{
     content: '';
     position: absolute;
     top: 0;
@@ -342,7 +342,11 @@ img {
     width: 100%;
     background-color: #ffffff6b;
 }
-.arrivals-img a:hover::before{
+.news-img a{
+    position: relative;
+}
+
+.arrivals-img a:hover::before, .news-img a:hover::before{
     height: 100%;
 }
 .arrivals-img img {
@@ -405,8 +409,57 @@ a.buynow:hover{
     margin-bottom: 20px;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
 }
-
+/* Circle */
+.link-wrap a{
+    position: relative;
+}
+.link-wrap a::after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(255,255,255,.2);
+	/* border-radius: 100%; */
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+.link-wrap a:hover::after {
+	animation: circle 0.90s;
+	-webkit-animation: circle 0.90s;
+}
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
 .link-wrap a {
     height: 100%;
     width: 100%;
