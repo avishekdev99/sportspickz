@@ -321,7 +321,7 @@ img {
 }
 
 .arrivals-img {
-    height: 300px;
+    height: auto;
     overflow: hidden;
     padding: 20px;
 }
