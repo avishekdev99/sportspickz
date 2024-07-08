@@ -547,4 +547,16 @@ section.newsletter {
 .rugby-wrap {
     margin: 30px 0;
 }
+.privacy-wrap p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.privacy-wrap{
+    margin-bottom: 30px;
+}
+.privacy-wrap ul{
+    list-style: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
 /* sub pages css end */

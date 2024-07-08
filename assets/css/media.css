@@ -9,6 +9,12 @@
     .main-nav ul li {
         margin: 0px 10px;
     }
+    .banner-text p {
+        font-size: 1.575rem;
+    }
+    .banner-imgs {
+        height: 500px;
+    }
 }
 @media(max-width:992px){
     .close, .toggle{
@@ -61,7 +67,6 @@
 }
 .site-banner {
     z-index: 1;
-    display: none;
 }
 }
 @media(max-width:850px){
@@ -77,6 +82,19 @@
     }
     .footer-logo img {
         max-width: 160px;
+    }
+    .site-banner .row {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .site-banner .col-md-5, .site-banner .col-md-7{
+        width: 100%;
+    }
+    .site-banner {
+        height: auto;
+    }
+    .banner-text {
+        margin-top: 20px;
     }
 }
 @media(max-width:767px){
@@ -113,6 +131,9 @@
     .arrivals-wrap {
         margin-bottom: 30px;
     }
+    .banner-imgs {
+        height: 400px;
+    }
 }
 @media(max-width:575px){
     .news-form button {
@@ -138,6 +159,9 @@
 }
 .link-wrap {
     height: 300px;
+}
+.banner-imgs {
+    height: 350px;
 }
 }
 @media(max-width:374px){
