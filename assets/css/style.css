@@ -315,14 +315,15 @@ img {
     overflow: hidden;
     margin-bottom: 10px;
     height: 100%;
+    position: relative;
 }
 .rugby-wrap .col-md-4, .rugby-wrap .col-md-6 {
     margin-bottom: 30px;
 }
 
-.football-main .arrivals-img {
+/* .football-main .arrivals-img {
     height: auto;
-}
+} */
 .arrivals-img {
     height: 300px;
     overflow: hidden;
@@ -372,6 +373,11 @@ a.buynow {
     display: inline-block;
     margin-top: 10px;
     transition: all 0.3s linear;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    width: fit-content;
+    transform: translateX(-50%);
 }
 a.buynow:hover{
  color: #600080;
@@ -380,7 +386,7 @@ a.buynow:hover{
 
 .arrivals-text {
     text-align: center;
-    padding: 15px 20px;
+    padding: 15px 20px 60px;
 }
 
 .site-heading h3 {
@@ -556,7 +562,10 @@ section.newsletter {
 :focus-visible {
     outline: none;
 }
+
+
 /* newsletter section end */
+
 /* footer css start */
 .site-footer {
     margin-top: 50px;
