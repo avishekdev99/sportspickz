@@ -191,9 +191,7 @@ img {
     border: none;
     border-bottom: 1px solid;
 }
-.user-cart{
-    /* display: none; */
-}
+
 .user-cart ul {
     display: flex;
     align-items: center;
@@ -210,9 +208,7 @@ img {
 .site-header .container{
     max-width: 1800px;
 }
-.search-icon{
-    /* display: none; */
-}
+
 /* header section css end */
 .site-banner {
     height: 100%;
