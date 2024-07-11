@@ -51,7 +51,9 @@ a {
     padding-left: 5%;
     padding-right: 5%;
 }
-
+.football-main .container{
+    max-width: 1750px;
+}
 img {
     width: 100%;
 }
@@ -361,7 +363,7 @@ img {
 }
 
 a.buynow {
-    padding: 10px 50px;
+    padding: 10px 30px;
     background: #600080;
     border: 1px solid #600080;
     font-size: 1rem;
@@ -552,8 +554,15 @@ section.newsletter {
     height: 45px;
     border: none;
     background: #6a0088;
+    border: 1px solid #6a0088;
     color: #fff;
     font-size: 1rem;
+    transition: all 0.3s linear;
+
+}
+.news-form button:hover{
+    background: transparent;
+    color: #6a0088;
 }
 :focus-visible {
     outline: none;
@@ -651,8 +660,8 @@ section.newsletter {
     margin: 10px 0;
 }
 .paytem-wrap {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 82px;
     background: #e8e8e8b8;
     padding: 10px;
     display: flex;
