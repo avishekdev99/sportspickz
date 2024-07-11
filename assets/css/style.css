@@ -660,10 +660,10 @@ section.newsletter {
     margin: 10px 0;
 }
 .paytem-wrap {
-    height: 80px;
+    height: 30px;
     width: 82px;
-    background: #e8e8e8b8;
-    padding: 10px;
+    background: #e8e8e854;
+    padding: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -690,5 +690,8 @@ section.newsletter {
 .copy-right p{
     font-size: 1rem;
     margin-bottom: 0;
+}
+.rugby-wrap .row {
+    justify-content: center;
 }
 /* sub pages css end */

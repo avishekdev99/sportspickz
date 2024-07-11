@@ -15,12 +15,12 @@
     .banner-imgs {
         height: 500px;
     }
-    .paytem-wrap {
-        height: 80px;
-        width: 80px;
-    }
+ 
     a.buynow {
         padding: 8px 30px;
+    }
+    .arrivals-img {
+        height: auto;
     }
 }
 @media(max-width:992px){
@@ -75,13 +75,14 @@
 .site-banner {
     z-index: 1;
 }
+
 }
 @media(max-width:850px){
     html{
         font-size: 14px
     }
     .arrivals-img {
-        height: 200px;
+        height: auto;
         padding: 15px;
     }
     .link-wrap, .news-img a {
@@ -104,7 +105,6 @@
         margin-top: 20px;
     }
     .paytem-wrap {
-        height: 70px;
         width: 70px;
     }
     a.buynow {
