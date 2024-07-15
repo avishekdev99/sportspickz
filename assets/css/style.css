@@ -695,3 +695,57 @@ section.newsletter {
     justify-content: center;
 }
 /* sub pages css end */
+
+
+.addes-text {
+    text-align: center;
+}
+.added_card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 330px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 3px solid #600080;
+}
+.added_card img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+.banner_with_text {
+    background: whitesmoke;
+}
+.image_lfc {
+    max-width: 360px;
+    height: 270px;
+    object-fit: contain;
+}
+.btn_cls a{
+    padding: 10px 30px;
+    background: #600080;
+    border: 1px solid #600080;
+    font-size: 1rem;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    transition: all 0.3s linear;
+}
+.btn_cls a:hover {
+    background: transparent;
+    color: #6a0088;
+}
+.under_banner_content {
+    background: whitesmoke;
+}
+.left_banner_text h5 {
+    font-size: 20px;
+}
+.left_banner_text p {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px;
+}
